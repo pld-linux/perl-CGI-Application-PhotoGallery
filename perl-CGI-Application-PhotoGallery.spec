@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Application-PhotoGallery
+%define		pdir	CGI
+%define		pnam	Application-PhotoGallery
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
 Summary(pl):	CGI::Application::PhotoGallery - modu³ do tworzenia prostych galerii zdjêæ
 Name:		perl-CGI-Application-PhotoGallery
