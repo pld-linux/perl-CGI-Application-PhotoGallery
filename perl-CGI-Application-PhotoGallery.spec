@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define pnam	Application-PhotoGallery
-Summary:	GGI::Application::PhotoGallery
+Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery.
 Name:		perl-CGI-Application-PhotoGallery
 Version:	0.02
 Release:	1
@@ -21,6 +21,9 @@ BuildRequires:	perl(HTML::Template)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+CGI::Application::PhotoGallery is a CGI::Application module allowing people to create their own simple photo gallery.
+There is no need to generate your own thumbnails since they are created on the fly (using either the GD or Image::Magick
+modules).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
