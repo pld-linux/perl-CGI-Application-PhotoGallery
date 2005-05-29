@@ -8,13 +8,13 @@
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
 Summary(pl):	CGI::Application::PhotoGallery - modu³ do tworzenia prostych galerii zdjêæ
 Name:		perl-CGI-Application-PhotoGallery
-Version:	0.02
-Release:	2
+Version:	0.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	72309a8e1721a0f8f45f6e96b1fc167a
+# Source0-md5:	512c2207b259fca1cc2c9b9c85510d0e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-CGI-Application
