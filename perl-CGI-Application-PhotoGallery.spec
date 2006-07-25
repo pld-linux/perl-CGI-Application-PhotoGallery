@@ -8,17 +8,23 @@
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
 Summary(pl):	CGI::Application::PhotoGallery - modu³ do tworzenia prostych galerii zdjêæ
 Name:		perl-CGI-Application-PhotoGallery
-Version:	0.03
+Version:	0.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	512c2207b259fca1cc2c9b9c85510d0e
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
+# Source0-md5:	034a51a2ad0f6dc5177376151841e8ad
+URL:		http://search.cpan.org/dist/CGI-Application-PhotoGallery/
 BuildRequires:	perl-CGI-Application
 BuildRequires:	perl-HTML-Template
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Cache-Cache
+BuildRequires:	perl-File-Find-Rule
+BuildRequires:	perl-MIME-Types
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -60,5 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/CGI/Application/PhotoGallery.pm
 %dir %{perl_vendorlib}/CGI/Application/PhotoGallery
 %{perl_vendorlib}/CGI/Application/PhotoGallery/*.pm
-%{perl_vendorlib}/CGI/Application/PhotoGallery/*.tmpl
 %{_mandir}/man3/*
