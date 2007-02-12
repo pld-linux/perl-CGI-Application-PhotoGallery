@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Application-PhotoGallery
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
-Summary(pl):	CGI::Application::PhotoGallery - modu³ do tworzenia prostych galerii zdjêæ
+Summary(pl.UTF-8):   CGI::Application::PhotoGallery - moduÅ‚ do tworzenia prostych galerii zdjÄ™Ä‡
 Name:		perl-CGI-Application-PhotoGallery
 Version:	0.05
 Release:	1
@@ -34,10 +34,10 @@ people to create their own simple photo gallery. There is no need to
 generate your own thumbnails since they are created on the fly (using
 either the GD or Image::Magick modules).
 
-%description -l pl
-CGI::Application::PhotoGallery to modu³ CGI::Application umo¿liwiaj±cy
-tworzenie w³asnej prostej galerii zdjêæ. Nie ma potrzeby generowania
-miniaturek, poniewa¿ s± one tworzone w locie (przy u¿yciu modu³ów GD
+%description -l pl.UTF-8
+CGI::Application::PhotoGallery to moduÅ‚ CGI::Application umoÅ¼liwiajÄ…cy
+tworzenie wÅ‚asnej prostej galerii zdjÄ™Ä‡. Nie ma potrzeby generowania
+miniaturek, poniewaÅ¼ sÄ… one tworzone w locie (przy uÅ¼yciu moduÅ‚Ã³w GD
 lub Image::Magick).
 
 %prep
