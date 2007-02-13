@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Application-PhotoGallery
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
-Summary(pl.UTF-8):   CGI::Application::PhotoGallery - moduł do tworzenia prostych galerii zdjęć
+Summary(pl.UTF-8):	CGI::Application::PhotoGallery - moduł do tworzenia prostych galerii zdjęć
 Name:		perl-CGI-Application-PhotoGallery
 Version:	0.05
 Release:	1
