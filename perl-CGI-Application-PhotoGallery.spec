@@ -9,7 +9,7 @@ Summary:	CGI::Application::PhotoGallery - module to provide a simple photo galle
 Summary(pl.UTF-8):	CGI::Application::PhotoGallery - moduł do tworzenia prostych galerii zdjęć
 Name:		perl-CGI-Application-PhotoGallery
 Version:	0.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
