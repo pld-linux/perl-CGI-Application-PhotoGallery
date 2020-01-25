@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	Application-PhotoGallery
 Summary:	CGI::Application::PhotoGallery - module to provide a simple photo gallery
